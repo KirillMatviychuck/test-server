@@ -4,7 +4,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req: Request, res: Response) => {
-    let message = 'Test server is running';
+    let message = 'Test server running';
     res.send(message)
 })
 
